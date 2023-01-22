@@ -7,7 +7,7 @@
 	"icon": "logo.jpg",
 	"displayName": "pseudocodigo",
 	"description": "Formatação de sintaxe de pseudocodigo para as aulas de Algoritmos (TDA)",
-	"version": "0.0.2",
+	"version": "0.0.4",
 	"repository": {
 		"url": "https://github.com/msanches/pseudocodigo"
 	},

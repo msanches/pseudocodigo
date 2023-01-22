@@ -1,8 +1,10 @@
 # Funcionalidades
  - formatação de sintaxe para pseudocódigos 
  - snippets
+
 # Como utilizar
 Crie um arquivo com a extensão .alg 
+
 # Demo
 ![](img/vs2.gif)
 
