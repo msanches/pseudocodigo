@@ -1,0 +1,75 @@
+{
+	"Algoritmo": {
+		"prefix": "algoritmo",
+		"body": [
+			"algoritmo ${1:name}",
+			"\tinício",
+			"\t\t",
+			"\tfim"
+		],
+		"description": "Insertion d'un bloc d'algorithme (EN)"
+	},
+	"para": {
+		"prefix": "para",
+		"body": [
+			"para(${1:i}; ${2:min}; ${3:max}){ ",
+			"\t$0",
+			"}"
+		],
+		"description": "Insertion d'un bloc de boucle \"pour\""
+	},
+	"begin": {
+		"prefix": "begin",
+		"body": [
+			"begin",
+			"\t$0",
+			"end"
+		],
+		"description": "Insertion d'un bloc d'algo \"pour\""
+	},
+	"do": {
+		"prefix": "do",
+		"body": [
+			"do",
+			"\t$0",
+			"while(${1:conditon})"
+		],
+		"description": "Insertion d'un bloc Faire .. Tant que\"pour\""
+	},
+	"se": {
+		"prefix": "se",
+		"body": [
+			"se(${1:conditon}){",
+			"\t$0",
+			"}"
+		],
+		"description": "Insertion d'un bloc \"si\""
+	},
+	"else": {
+		"prefix": "else",
+		"body": [
+			"else",
+			"\t$0",
+			"end if"
+		],
+		"description": "Insertion d'un bloc \"si\""
+	},
+	"else if": {
+		"prefix": "elif",
+		"body": [
+			"else if (${1:conditon}):",
+			"\t",
+			"end if"
+		],
+		"description": "Insertion d'un bloc \"si-sinon\""
+	},
+	"enquanto": {
+		"prefix": "enquanto",
+		"body": [
+			"enquanto(${1:condition}){",
+			"\t$0",
+			"}"
+		],
+		"description": "Insertion d'un bloc \"tant que\""
+	}
+}

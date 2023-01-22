@@ -1,0 +1,50 @@
+{
+	"name": "pseudocodigo",
+	"author": {
+		"name": "marco antonio sanches"
+	},
+	"publisher": "marcosanches",
+	"icon": "logo.jpg",
+	"displayName": "pseudocodigo",
+	"description": "Formatação de sintaxe de pseudocodigo para as aulas de Algoritmos (TDA)",
+	"version": "0.0.2",
+	"repository": {
+		"url": "https://github.com/msanches/pseudocodigo"
+	},
+	"engines": {
+		"vscode": "^1.39.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "pseudo-mas",
+				"aliases": [
+					"pseudo-Mas",
+					"pseudo-mas"
+				],
+				"extensions": [
+					".algo",
+					".alg",
+					".pse"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "pseudo-mas",
+				"scopeName": "source.algo",
+				"path": "./syntaxes/pseudocodigo.tmLanguage.json"
+			}
+		],
+		"snippets": [
+			{
+				"language": "pseudo-mas",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}
